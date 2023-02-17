@@ -1,6 +1,6 @@
 {
   "name": "Bravado",
-  "description": "Add keyboard shortcuts to meetings on Microsoft Teams",
+  "description": "Add keyboard shortcuts Microsoft Outlook",
   "version": "0.1",
   "icons": {
     "64": "icon.png"
@@ -13,29 +13,11 @@
     "scripts": ["setCommands.js"]
   },
   "commands": {
-    "open-roster": {
+    "open-categories": {
       "suggested_key": {
-        "default": "Ctrl+Shift+P"
+        "default": "Alt+L"
       },
-      "description": "Open the roster"
-    },
-    "open-chat": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+K"
-      },
-      "description": "Open the chat"
-    },
-    "open-video": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+V"
-      },
-      "description": "Turn video on"
-    },
-    "open-share": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+S"
-      },
-      "description": "Open the share tray"
+      "description": "Open the Categories Menu"
     }
   },
   "manifest_version": 2
